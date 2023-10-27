@@ -1,0 +1,14 @@
+body{
+    background-color: #000000;
+    margin: 0;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 5px;
+   }
+   img{
+    width: 500px;
+    height: 256px;
+  }
